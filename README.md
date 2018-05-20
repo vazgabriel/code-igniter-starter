@@ -12,6 +12,14 @@ You need to use any apache server and use this folder as root.
 * [WampServer](http://www.wampserver.com/) - Then put all files in "www" folder
 * [XAMPP](https://www.apachefriends.org/download.html) - Then put all files in "htdocs" folder
 
+#### Database
+
+This template uses "code_igniter_starter" database, if you want to test, run "assets/database/configDatabase.sql" as MySQL script (you can use MySQL Workbench to do this).
+
+If you want to alter database, just configure in "application/config/database.php".
+
+If you get an error, probably you need to edit database settings, to reconfigure user/password in "application/config/database.php".
+
 ### Dev Running
 
 Start the WampServer or XAMPP and access [LocalHost](http://localhost/)
